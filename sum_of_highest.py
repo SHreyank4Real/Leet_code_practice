@@ -8,7 +8,7 @@ def MaxSum(arr,key):
         max_sum=max(cur_max,max_sum)
     return max_sum
 
-arr = [80,-50,90,100]
-key = 2
+arr = [2,17,4,6,8,10,11]
+key = 4
 max = MaxSum(arr,key)
 print(max)
